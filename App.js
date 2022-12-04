@@ -27,7 +27,6 @@ export default function App() {
             <Stack.Screen name={Route.private.profile} component={Profile} />
             <Stack.Screen name={Route.private.explore} component={Explore} />
             <Stack.Screen name={Route.private.product} component={Product} />
-
           </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaView>
