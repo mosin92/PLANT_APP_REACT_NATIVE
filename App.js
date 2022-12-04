@@ -13,7 +13,7 @@ export default function App() {
       <SafeAreaView style={{ flex: 1 }}>
         <NavigationContainer>
           <Stack.Navigator
-            initialRouteName={Route.private.explore}
+            initialRouteName={Route.public.welcome}
             screenOptions={{
               headerShown: false,
 
